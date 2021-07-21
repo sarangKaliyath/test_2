@@ -1,0 +1,207 @@
+#sortBox,
+#nav {
+  background-color: pink;
+  border-radius: 5px;
+  height: 40px;
+  padding: 0px !important;
+}
+#imageBox,
+#nav,
+#sortBox {
+  width: 95%;
+  margin: auto;
+  padding: 3px;
+}
+body {
+  padding: 2%;
+  margin: auto;
+  width: 80%;
+  border: 1px solid skyblue;
+}
+
+#nav button,
+#sortBox button {
+  float: right;
+  height: 100%;
+  width: 100px;
+  background-color: pink;
+  border: 0px;
+  border-radius: 5px;
+}
+#imageBox {
+  margin: auto;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.image {
+  width: 100%;
+  height: 400px;
+}
+
+#movies {
+  padding-bottom: 5%;
+}
+
+@media (min-width: 1390px) {
+  #movies {
+    display: grid;
+    grid-template-columns: repeat(3, 40%);
+    margin-top: 210px;
+    width: 92.5%;
+    margin-left: 32px;
+    grid-row-gap: 50px;
+    grid-column-gap: 0%;
+    padding-left: 3%;
+    padding-top: 2%;
+  }
+  #movies img {
+    width: 100%;
+    height: 60%;
+  }
+  #movies > div {
+    margin: auto;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 1390px) {
+  #movies {
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    margin-top: 30px;
+    width: 92.5%;
+    margin-left: 2.5%;
+    grid-column-gap: 25%;
+    grid-row-gap: 50px;
+    padding-left: 3%;
+    padding-top: 2%;
+  }
+  body {
+    height: 2360px;
+  }
+  #movies img {
+    width: 100%;
+    height: 60%;
+  }
+  #movies > div {
+    margin: auto;
+  }
+  #imageBox > img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 1000px) {
+  #movies {
+    display: grid;
+    grid-template-columns: 100%;
+    margin-top: 30px;
+    width: 92.5%;
+    margin-left: 2.5%;
+    grid-column-gap: 25%;
+    grid-row-gap: 50px;
+    padding-left: 3%;
+    padding-top: 2%;
+  }
+
+  #imageBox > img {
+    width: 100%;
+    height: 100% !important;
+  }
+  body {
+    height: 4050px;
+  }
+  #movies img {
+    width: 100%;
+    height: 60%;
+  }
+  #movies > div {
+    margin: auto;
+  }
+}
+#movies div {
+  border: 1px solid black;
+}
+
+#movies {
+  border: 1px solid black;
+}
+p {
+  width: 200px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.class {
+  width: 200px;
+  height: 360px;
+}
+#sortBox button:hover,
+#nav button:hover,
+#movies > div:hover {
+  transform: scale(1.2);
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  font-style: italic;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+#sortBox {
+  margin-top: 10px;
+}
+#sortBox > button {
+  width: 110px;
+}
+
+#loginButton {
+  height: 10%;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+}
+#loginForm {
+  display: grid;
+  grid-template-rows: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  grid-gap: 20%;
+  width: 100%;
+  height: 25%;
+}
+#login,
+#box {
+  margin: auto;
+  margin-top: 10%;
+  width: 350px;
+  height: 400px;
+}
+
+#signupform {
+  padding: 5%;
+  display: grid;
+  grid-template-rows: auto;
+  width: 80%;
+}
+input {
+  margin-bottom: 5%;
+  height: 30px;
+  font-size: 20px;
+}
+#submit {
+  margin-left: 5%;
+  width: 80%;
+  height: 40px;
+  border: none;
+}
+#box{
+    width: 50%;
+    height: 450px
+}
+#box h1{
+    margin-left: 30%;
+    
+}

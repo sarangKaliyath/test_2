@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>
+            Signup
+        </title>
+        <link rel="stylesheet" href="allPages.css">
+    </head>
+
+    <body>
+        
+        <div id="nav">
+            <button onclick="tosignup()">Sign up</button>
+            <button onclick="tologin()">Login</button>
+            <button onclick="tohome()">home</button>
+        
+        </div>
+
+        <div id="box">
+            <h1>Sign up now!</h1>
+            <form id="signupform">
+                <input type="text" id="name" placeholder="Enter name">
+                <input type="number"  id="number" placeholder="Enter Phone Number">
+                <input type="text" id="email" placeholder="Enter valid Email">
+                <input type="password" id="password" placeholder="Enter Password">
+            </form>
+            <button type="submit" onclick="getForm()" id="submit">Sign up</button>
+        </div>
+
+    </body>
+
+</html>
+
+<script src="signup.js"></script>
